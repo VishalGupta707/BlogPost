@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+input[type='text'], input[type='password'], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555;
+}
+
+#auth-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#auth-toggle button {
+    background: #ddd;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#auth-toggle button.active {
+    background: #333;
+    color: #fff;
+}
+
+#auth-message {
+    text-align: center;
+    color: #ff0000;
+}
+
+#blog-posts {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.blog-post {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#logout-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
